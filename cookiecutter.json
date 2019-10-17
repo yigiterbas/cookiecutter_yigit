@@ -1,0 +1,12 @@
+{
+    "full_name": "Yigit Erbas",
+    "email": "yigiterbas@hotmail.com",
+    "github_username": "csci-e-29",
+    "project_name": "test project",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+    "project_short_description": "A short description of the project",
+    "release_date": "{% now 'local' %}",
+    "version": "0.1.0",
+    "csci-utils" : "Yes"
+    "_extensions": ["jinja2_time.TimeExtension"]
+}
