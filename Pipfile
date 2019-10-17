@@ -8,7 +8,6 @@ pytest = "*"
 pytest-cov = "*"
 
 [packages]
-csci_utils = {git = "ssh://git@github.com:csci-e-29/2019fa-csci-utils-yigiterbas.git",ref = "master"}
 
 [requires]
 python_version = "3.7"
